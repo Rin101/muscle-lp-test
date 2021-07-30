@@ -202,3 +202,49 @@ nav {
   width: 100%;
   box-shadow: inset 20px 20px 200px rgba(0, 0, 0, 0.4);
 }
+
+/* ============================================ */
+
+.seg-title-container {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 50px;
+}
+
+.seg-number {
+  height: 50px;
+  width: 50px;
+  background: gray;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seg-number p {
+  display: inline-block;
+  font-weight: bold;
+}
+
+.seg-title {
+  padding: 10px;
+  border-bottom: solid 2px gray;
+  color: gray;
+}
+
+.seg-content {
+  margin-bottom: 50px;
+}
+
+.seg-content ul {
+  margin-left: 80px;
+}
+
+.seg-content li {
+  list-style: georgian;
+  color: gray;
+}
+
+img {
+  height: 100px;
+}
