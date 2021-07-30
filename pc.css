@@ -59,12 +59,17 @@ section {
 .question-container {
   display: flex;
   padding: 10px;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .answer-container {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
   padding: 10px;
+  flex-wrap: wrap;
 }
 
 .question {
@@ -78,7 +83,7 @@ section {
 .question,
 .answer {
   padding: 20px 20px;
-  margin: 0 20px;
+  margin: 15px 20px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -264,13 +269,6 @@ nav {
   margin-bottom: 20px;
 }
 
-.inside-border {
-  width: calc(100vw - 50px);
-  height: 1px;
-  background: rgba(0, 0, 0, 0.2);
-  margin-left: -50px;
-}
-
 .illustration {
   height: 130px;
   /* width: 500px; */
@@ -375,9 +373,23 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
-.plc-mota div {
+.mota {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(100%, -50%);
+  border-top: solid 1.5px var(--greenblue);
+  border-bottom: solid 1.5px var(--greenblue);
+  border-right: solid 1.5px var(--greenblue);
+  background: white;
+  height: 5px;
+  width: 15px;
+}
+
+.mota-text {
   background: var(--darkblue);
   height: 80%;
   width: 90%;
