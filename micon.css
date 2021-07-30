@@ -184,33 +184,33 @@ nav {
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  border: solid 2px white;
+  border: solid 3px white;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-  transform: translate(-50%, -50%);
 }
 
 #top-text1 {
   top: 40%;
-  left: 40%;
+  left: 30%;
 }
 
 #top-text2 {
-  top: 30%;
-  left: 47%;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 #top-text3 {
-  top: 27%;
-  left: 60%;
+  top: 40%;
+  right: 30%;
 }
 
 .top-text h2 {
   position: absolute;
-  top: 70%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
