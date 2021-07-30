@@ -181,8 +181,9 @@ nav {
 }
 
 .top-text-circle {
-  height: 100px;
-  width: 100px;
+  height: 130px;
+  width: 130px;
+  font-size: 1.2rem;
   border-radius: 50%;
   border: solid 3px white;
   color: white;
