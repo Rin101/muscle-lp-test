@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="./micon.css">
+    <link rel="stylesheet" href="./micon2.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -52,45 +53,73 @@
     </div>
     <div class="border"></div>
     <section class="one">
-        <div class="segment">
-            <div class="seg-title-container">
-                <div class="seg-number"><p>1</p></div>
-                <div class="seg-title">一体型のため、ドライバ基板が必要なく、装置の小型化が可能になります。</div>
-            </div>
-            <div class="seg-content">
-                <div class="image-box">
-                    <img src="./assets/画像/Micon-machine_1 XYZ.jpg" alt="">
-                    <img src="./assets/画像/Micon-machine_2 AGV.jpg" alt="">
-                    <img src="./assets/画像/Micon-machine_3 3DP.jpg" alt="">
+        <div class="segments">
+            <div class="segment">
+                <div class="seg-title-container">
+                    <div class="seg-number"><p>1</p></div>
+                    <div class="seg-title">一体型のため、ドライバ基板が必要なく、装置の小型化が可能になります。</div>
                 </div>
-                <div class="image-box">
-                    <img src="./assets/画像/CM3-17S.jpg" alt="">
-                    <img src="./assets/画像/CM3-17S.jpg" alt="">
+                <div class="seg-content seg-one">
+                    <div class="image-box" id="image-box-one">
+                        <img class="image-box1" src="./assets/画像/Micon-machine_3 3DP.jpg" alt="">
+                        <img class="image-box2" src="./assets/画像/Micon-machine_1 XYZ.jpg" alt="">
+                        <img class="image-box3" src="./assets/画像/Micon-machine_2 AGV.jpg" alt="">
+                    </div>
+                    <div class="seg-one-box">
+                        <div class="image-box" id="image-box-two">
+                            <img src="./assets/画像/CM3-17S-small.jpg" alt="">
+                            <img src="./assets/画像/CM3-17S-small.jpg" alt="">
+                            <img src="./assets/画像/CM3-17S-small.jpg" alt="">
+                        </div>
+                        <div class="drv-fuyou">
+                            <div class="box">
+                                <div class=""></div>
+                                <div class=""></div>
+                                <div class=""></div>
+                            </div>
+                            <p>ドライバ不要</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="segment">
+                <div class="seg-title-container">
+                    <div class="seg-number"><p>2</p></div>
+                    <div class="seg-title">サーボ性能が安価に実現可能です。</div>
+                </div>
+                <div class="seg-content">
+                    <ul>
+                        <li>最大分解能：12,000</li>
+                        <li>クローズドループベクトル制御</li>
+                        <li>価格：3万円台～</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="segment">
+                <div class="seg-title-container">
+                    <div class="seg-number"><p>3</p></div>
+                    <div class="seg-title">RS232Cのシリアル通信で接続します。</div>
+                </div>
+                <div class="seg-content seg-three">
+                    <img src="./assets/画像/Kiban.jpg" alt="">
                     <img src="./assets/画像/CM3-17S.jpg" alt="">
                 </div>
             </div>
         </div>
-        <div class="segment">
-            <div class="seg-title-container">
-                <div class="seg-number"><p>2</p></div>
-                <div class="seg-title">サーボ性能が安価に実現可能です。</div>
-            </div>
-            <div class="seg-content">
-                <ul>
-                    <li>最大分解能：12,000</li>
-                    <li>クローズドループベクトル制御</li>
-                    <li>価格：3万円台～</li>
-                </ul>
-            </div>
-        </div>
-        <div class="segment">
-            <div class="seg-title-container">
-                <div class="seg-number"><p>3</p></div>
-                <div class="seg-title">RS232Cのシリアル通信で接続します。</div>
-            </div>
-            <div class="seg-content">
-                <img src="./assets/画像/Kiban.jpg" alt="">
-                <img src="./assets/画像/CM3-17S.jpg" alt="">
+        <div class="big-image">
+            <img src="./assets/画像/CM3-17S.jpg" alt="">
+            <h2>CM3+</h2>
+            <h3>マイコン・ドライバ搭載</h3>
+            <h3>サーボシステム</h3>
+            <div class="double-p">
+                <div class="">
+                    <p>最高速度</p>
+                    <p>5,000rpm</p>
+                </div>
+                <div class="">
+                    <p>最大トルク</p>
+                    <p>0.32Nm</p>
+                </div>
             </div>
         </div>
     </section>
@@ -125,6 +154,7 @@
             </div>
         </div>
     </div>
+    <div class="border"></div>
     <section class="two">
         <div class="section-title">
             <h3>マイコン開発の工数削減</h3>
@@ -133,13 +163,20 @@
             <div class="two-mota">
                 <div class="two-expl-title"><p>一般的なモータ</p></div>
                 <div class="illustration">
-                    <p>一般的なモータはマイコン側で動作を保持し、モータに随時指令しますので、マイコン側の開発工数、マイコン側の処理能力が求められます。</p>
+                    <p class="ill-text">一般的なモータはマイコン側で動作を保持し、モータに随時指令しますので、マイコン側の開発工数、マイコン側の処理能力が求められます。</p>
                     <div class="figure">
-                        <div class="kiban"></div>
+                        <div class="kiban">
+                            <div class="kiban-img">
+                                <img src="./assets/画像/Kiban.jpg" alt="">
+                            </div>
+                            <div class="kiban-text">
+                                <p>動作パターン保持</p>
+                            </div>
+                        </div>
                         <div class="line"></div>
                         <div class="plc-draw">
                             <div class="plc-driver"><div><p>ド</p><p>ラ</p><p>イ</p><p>バ</p></div></div>
-                            <div class="plc-mota"><div class=".mota-text"><p>モータ</p></div><div class="mota"></div></div>
+                            <div class="plc-mota"><div class="mota-text"><p>モータ</p></div><div class="mota"></div></div>
                         </div>
                     </div>
                 </div>
@@ -147,12 +184,147 @@
             <div class="two-cm3">
                 <div class="two-expl-title"><p>CM3+</p></div>
                 <div class="illustration">
-                    <p>CM3+ではモータにプログラムを保持させることができますので、起動信号を送るだけであとはCM3+が状況に応じた制御を行います。
+                    <p class="ill-text">CM3+ではモータにプログラムを保持させることができますので、起動信号を送るだけであとはCM3+が状況に応じた制御を行います。
                         マイコンのモータ制御開発工数を大幅に削減することが可能です。</p>
-                    <div class="figure"></div>
+                    <div class="figure">
+                        <img class="cm3-kiban-img" src="./assets/画像/Kiban.jpg" alt="">
+                        <div class="line"></div>
+                        <div class="kiban">
+                            <div class="kiban-img">
+                                <img src="./assets/画像/CM3-17S.jpg" alt="">
+                            </div>
+                            <div class="kiban-text">
+                                <p>動作パターン保持</p>
+                            </div>
+                        </div>
+                        <div class="driver-fuyou">
+                            <div class=""></div>
+                            <p>ドライバ不要</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+    <section class="three">
+        <h3>ロジックプログラム機能</h3>
+        <div class="logic-graph">
+            <div class="c-l">
+                <div class="circle"><p>条件分岐処理</p></div>
+            </div>
+            <div class="x x1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z"/></svg></div>
+            <div class="c-m">
+                <div class="circle"><p>演算処理</p></div>
+            </div>
+            <div class="x x2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z"/></svg></div>
+            <div class="c-r">
+                <div class="circle"><p>モータ内部変数</p></div>
+            </div>
+            <div class="s-l">
+                <div class="square">
+                    <p>
+                        &&：論理積(AND) <br>
+                        ||：論理和(OR) <br>
+                        !!：否定(NOT) <br>
+                        ==：等しい <br>
+                        !=：等しくない <br>
+                        >：より大きい <br>
+                        >=：以上 <br>
+                        <：より小さい <br>
+                        <=：以下 <br>
+                        I：入力信号条件分岐 <br>
+                    </p>
+                </div>
+            </div>
+            <div class="s-m">
+                <div class="square">
+                    <p>
+                        =：値の代入 <br>
+                        +：加算 <br>
+                        -：減算 <br>
+                        *：乗算 <br>
+                        /：除算 <br>
+                        U1：Sin(サイン) <br>
+                        U2：Cos(コサイン) <br>
+                        U3：平方根 <br>
+                    </p>
+                </div>
+            </div>
+            <div class="s-r">
+                <div class="square">
+                    <p>
+                        V：変数 <br>
+                        Px：現在位置 <br>
+                        Sx：現在速度 <br>
+                        Ix：現在トルク <br>
+                        Ux：現在のステータス <br>
+                        Pe：位置偏差 <br>
+                        PT：目標位置 <br>
+                        ST：目標速度 <br>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <p class="three-text">モータ内部のマイコンを使用することで動作状況や外部環境に応じた条件分岐処理、演算処理が可能となりより幅広い制御開発が可能となります。</p>
+        <p class="three-text-little">※CM3+には位置決めなどの動作シーケンスプログラム（モーションバンク）と条件分岐処理や演算処理を周期的に実行するプログラム（ロジックバンク）の2種類があり、2つのプログラムを同時に実行することができます。</p>
+    </section>
+    <section class="four">
+        <div class="section-title">
+            <h3>タッチパネルからの直接制御</h3>
+        </div>
+        <p>CM3+にはマイコンが内蔵されているため、場合によってはコントローラが不要になります。</p>
+        <p>装置のトータルコストが大幅に削減できる可能性があります。</p>
+        <div class="graph-container">
+            <div class="graph">
+                <p>簡易的なタッチパネルから直接モータを制御</p>
+                <div class="draws">
+                    <img src="./assets/画像/tablet/pixta_62092688_S.jpg" alt="">
+                    <div class="line"></div>
+                    <div class="four-no-photo"></div>
+                    <div class="line"></div>
+                    <img src="./assets/画像/CM3-17S.jpg" alt="">
+                </div>
+            </div>
+            <div class="arrow"><i class="fas fa-arrow-right"></i></div>
+            <div class="graph graph-bottom">
+                <img src="./assets/画像/tablet/pixta_62092688_S.jpg" alt="">
+                <div class="s-img-container">
+                    <img src="./assets/画像/CM3-17S.jpg" alt="">
+                    <img src="./assets/画像/CM3-17S.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="five">
+        <div class="section-title">
+            <h3>カスタマイズによる直接制御</h3>
+        </div>
+        <p>CM3+には様々な機能、パラメータ設定が搭載されており、お客様に合ったカスタマイズが可能です。</p>
+        <p>またCM3+内のマイコンを活用したお客様に最適な制御をご提案させていただくことも可能です。</p>
+    </section>
+    <div class="conversation">
+        <div class="question-container">
+            <div class="customer-icon">
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="question">
+                <p>マイコンの開発委託は可能でしょうか？</p>
+                <p>カスタム対応は何台かた可能ですか？</p>
+            </div>
+        </div>
+        <div class="answer-container">
+            <div class="answer">
+                <p>個別にご相談をお受けさせていただきますので、以下よりお問い合わせください。</p>
+                <a href="#contact">お問い合わせ | マッスル株式会社 一体型モータ・アクチュエータ (musclecorp.com)</a>
+            </div>
+            <div class="customer-service-icon">
+                <img src="./assets/customer-service.png" alt="">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>MUSCLEMUSCLEMUSCLEMUSCLEMUSCLE<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nam fugit eaque quia ut nesciunt expedita nisi, illo debitis, ullam magni minus dolore, temporibus deleniti ipsam! Totam ducimus asperiores alias.</p>
+    </footer>
 </body>
 </html>
