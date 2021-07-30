@@ -171,7 +171,7 @@
   height: 80px;
 }
 
-.driver-fuyou {
+.driver- {
   margin: 10px;
   display: flex;
   flex-direction: column;
@@ -179,14 +179,14 @@
   align-items: center;
 }
 
-.driver-fuyou div {
+.driver- div {
   height: 70px;
   width: 30px;
   border-radius: 3px;
   border: dotted 2px rgba(0, 0, 0, 0.4);
 }
 
-.driver-fuyou p {
+.driver- p {
   text-align: center;
   font-size: 0.6rem;
   color: gray;
@@ -296,7 +296,11 @@
   height: 200px;
   border: solid 1px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
-  padding: 30px;
+  padding: 30px 30px 10px 30px;
+}
+
+.graph p {
+  font-weight: bold;
 }
 
 .draws {
@@ -304,6 +308,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-top: 30px;
 }
 
 .draws .line {
@@ -311,10 +316,13 @@
 }
 
 .four-no-photo {
-  height: 60px;
-  width: 80px;
+  padding: 10px;
   border: dotted 2px gray;
   border-radius: 5px;
+}
+
+.four-no-photo img {
+  height: 50px;
 }
 
 .graph img {
@@ -354,4 +362,16 @@
 
 .five p {
   margin-bottom: 20px;
+}
+
+/* ================================ */
+
+footer {
+  height: 60vh;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.3);
+  color: rgba(255, 255, 255, 0.5);
 }
