@@ -271,7 +271,8 @@
 
 .four p {
   color: rgba(0, 0, 0, 0.6);
-  margin-bottom: 15px;
+  margin: 30px 0;
+  text-align: center;
 }
 
 .graph-container {

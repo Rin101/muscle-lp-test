@@ -191,6 +191,7 @@ nav {
   justify-content: center;
   align-items: center;
   position: absolute;
+  text-align: center;
 }
 
 #top-text1 {
