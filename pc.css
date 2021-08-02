@@ -354,11 +354,11 @@ nav {
 
 .plc-driver div {
   background: var(--darkblue);
-  height: 90%;
-  width: 80%;
+  height: 95%;
+  width: 90%;
   border-radius: 1px;
   color: white;
-  font-size: 7px;
+  font-size: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;

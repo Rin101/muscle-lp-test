@@ -236,7 +236,7 @@ nav {
 }
 
 .one img {
-  height: 100px;
+  height: 5rem;
 }
 
 .seg-title-container {
@@ -261,9 +261,10 @@ nav {
 }
 
 .seg-title {
-  padding: 10px;
+  padding: 10px 10px 10px 1.3rem;
   border-bottom: solid 2px gray;
   color: gray;
+  font-size: 1.2rem;
 }
 
 .seg-content {
@@ -363,10 +364,18 @@ nav {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  position: relative;
 }
 
 .big-image img {
   height: 500px;
+}
+
+.big-image-texts {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 .big-image h2 {

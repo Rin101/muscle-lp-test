@@ -56,7 +56,7 @@
 }
 
 .ill-text {
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: rgba(0, 0, 0, 0.7);
   font-weight: bold;
 }
@@ -96,7 +96,7 @@
 .kiban-text {
   border: dotted 2px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   text-align: center;
   padding: 40px 30px 5px 30px;
 }
@@ -119,11 +119,11 @@
 
 .plc-driver div {
   background: var(--darkblue);
-  height: 90%;
-  width: 80%;
+  height: 95%;
+  width: 90%;
   border-radius: 1px;
   color: white;
-  font-size: 7px;
+  font-size: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -220,8 +220,8 @@
 }
 
 .circle {
-  height: 150px;
-  width: 150px;
+  height: 11rem;
+  width: 11rem;
   border-radius: 50%;
   background: black;
   color: white;
@@ -231,13 +231,16 @@
 }
 
 .square {
-  height: 200px;
-  width: 150px;
+  height: 15rem;
+  width: 11rem;
   border-radius: 20px;
   background: black;
   color: white;
   padding: 10px;
   margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .s-l {
@@ -262,9 +265,9 @@
 }
 
 .three-text-little {
-  margin-top: 10px;
+  margin-top: 2rem;
   color: rgba(0, 0, 0, 0.8);
-  font-size: 0.7rem;
+  font-size: 0.9rem;
 }
 
 /* ==========================================-- */
