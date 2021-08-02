@@ -304,13 +304,13 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100px;
-  width: 80px;
+  height: 5rem;
+  width: 5rem;
 }
 
 .draw-sensor-box {
-  height: 50px;
-  width: 25px;
+  height: 10rem;
+  width: 2rem;
   border-radius: 1px;
   border: solid 1px rgba(0, 0, 0, 0.2);
   position: relative;
@@ -350,8 +350,8 @@ nav {
 }
 
 #plc-box {
-  height: 80px;
-  width: 40px;
+  height: 5rem;
+  width: 3rem;
   border: solid 1.5px var(--greenblue);
   border-radius: 5px;
   display: flex;
@@ -486,12 +486,16 @@ nav {
 
 /* ========================================= */
 
+.draw-title {
+  font-size: 1.3rem;
+}
+
 .draw p {
   text-align: center;
 }
 
 .draw img {
-  height: 100px;
+  height: 10rem;
 }
 
 .graph {
@@ -511,6 +515,13 @@ nav {
   border-radius: 10px;
   color: rgba(0, 0, 0, 0.7);
   font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.ptp-graph-text p {
+  margin: 0.3rem 0;
 }
 
 /* ========================================= */
