@@ -501,6 +501,7 @@ nav {
 .four-text-container {
   display: flex;
   align-items: center;
+  margin-right: 2rem;
 }
 
 .four-text-container div {
