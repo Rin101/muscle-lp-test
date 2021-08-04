@@ -366,7 +366,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   position: relative;
-  width: max-content;
+  width: min-content;
 }
 
 .big-image img {
