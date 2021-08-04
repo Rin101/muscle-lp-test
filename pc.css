@@ -505,10 +505,10 @@ nav {
 }
 
 .four-text-container div {
-  height: 50px;
-  width: 5px;
+  height: 3rem;
+  width: 0.3rem;
+  margin-right: 1rem;
   background: var(--greenblue);
-  margin-right: 20px;
 }
 
 .four-text {
@@ -523,6 +523,9 @@ nav {
 
 .four-img-container img {
   height: 15rem;
+}
+
+.four-img-two {
   margin-left: 3rem;
 }
 
