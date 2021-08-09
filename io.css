@@ -534,7 +534,7 @@ nav {
   width: 80%;
   margin: 30px auto 10px auto;
   display: grid;
-  grid-template-columns: 2fr 1fr 2fr 1fr 2fr;
+  grid-template-columns: 2fr 1fr 2fr 1fr 2fr 1fr 2fr;
   grid-template-rows: minmax(100px, auto);
 }
 
@@ -550,6 +550,11 @@ nav {
   align-items: center;
 }
 
+.equal-sign {
+  font-weight: bolder;
+  font-size: 3rem;
+}
+
 .circle {
   height: 11rem;
   width: 11rem;
@@ -559,6 +564,12 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.white-circle {
+  background: white !important;
+  color: black !important;
+  font-size: 1.5rem;
 }
 
 .square {
@@ -574,6 +585,12 @@ nav {
   align-items: center;
 }
 
+.square-white {
+  background: white !important;
+  color: black !important;
+  font-weight: bold;
+}
+
 .s-l {
   grid-column: 1;
 }
@@ -584,6 +601,10 @@ nav {
 
 .s-r {
   grid-column: 5;
+}
+
+.s-w {
+  grid-column: 7;
 }
 
 .square p {

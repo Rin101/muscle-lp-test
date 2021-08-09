@@ -301,14 +301,42 @@ nav {
   margin: 10px;
 }
 
+.image-box > div {
+  height: 6rem;
+  width: 6rem;
+  margin: 1rem;
+}
+
+.image-box1 {
+  background: url("./assets/画像/Micon-machine_3\ 3DP.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .image-box2 {
   grid-column: 1;
   grid-row: 2;
+  background: url("./assets/画像/Micon-machine_2\ AGV.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .image-box3 {
   grid-column: 2;
-  grid-row: 2;
+  grid-row: 1;
+  background: url("./assets/画像/Micon-machine_1\ XYZ.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.image-box4 {
+  background: url("./assets/画像/Depositphotos_398298798_xl-2015.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .drv-fuyou {
