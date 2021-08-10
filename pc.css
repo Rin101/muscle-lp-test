@@ -600,6 +600,72 @@ td {
   border-left: solid 5px var(--greenblue);
 }
 
+/* ========================== */
+
+.mota-dousa-text {
+  color: rgba(0, 0, 0, 0.8);
+  margin: 20px 0;
+  line-height: 30px;
+  text-align: center;
+}
+
+.mota-dousa-graph-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: minmax(100, auto);
+}
+
+.mota-dousa-graph {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.mota-dousa-title {
+  margin: 1rem 0;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.mota-dousa-graph img {
+  height: 10rem;
+}
+
+.mota-graph-text {
+  color: gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.mota-graph-text div {
+  padding: 20px 10px;
+}
+
+#mota-graph1,
+#mota-graph4 {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.mota-dousa-hyou table {
+  margin: 2rem;
+}
+
+th,
+td {
+  border: solid 1px rgba(0, 0, 0, 0.1);
+  padding: 13px 25px;
+  text-align: center;
+}
+
+th {
+  font-weight: normal;
+}
+
 /* ================================ */
 
 footer {
