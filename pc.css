@@ -8,6 +8,10 @@
   --textgreen: #42f464;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -35,6 +39,44 @@ li {
 }
 
 /* =================== */
+
+.scroll-up-button {
+  transform: rotate(180deg);
+  background: rgb(189, 189, 189);
+  border-radius: 50%;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  width: 3rem;
+  position: fixed;
+  bottom: 10%;
+  right: 5%;
+  font-size: 1.3rem;
+  cursor: pointer;
+  /* z-index: 1000; */
+  animation: slidein ease-in-out 0.2s;
+}
+
+@keyframes slidein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes slideout {
+  0% {
+    opacity: 100%;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
 
 section {
   width: 100%;
@@ -673,21 +715,6 @@ th {
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-
-.scroll-up-button {
-  transform: rotate(180deg);
-  background: rgba(0, 0, 0, 0.2);
-  border-radius: 50%;
-  padding: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 2rem;
-  width: 2rem;
-  position: absolute;
-  bottom: 0;
-  right: 0;
 }
 
 .catalog-download {
