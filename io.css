@@ -644,8 +644,16 @@ nav {
   padding: 2rem;
 }
 
+.mota-dousa-title {
+  margin: 1rem 0;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 .mota-dousa-graph img {
-  height: 100px;
+  height: 10rem;
 }
 
 .mota-graph-text {
