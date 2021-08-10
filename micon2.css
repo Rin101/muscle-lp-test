@@ -455,6 +455,68 @@ th {
 
 /* ================================ */
 
+.footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+
+.footer-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.catalog-img {
+  height: 15rem;
+  margin: 2rem;
+  cursor: pointer;
+}
+
+.catalog-download {
+  width: 20rem;
+  padding: 1rem 0;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(218, 53, 53);
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.contact {
+  cursor: pointer;
+  width: 20rem;
+  padding: 1rem 0;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(0, 155, 70);
+  color: white;
+  border-radius: 5px;
+}
+
+.catalog-download:hover,
+.contact:hover,
+.catalog-img:hover {
+  opacity: 0.8;
+  transition: ease-in-out 0.1s;
+}
+
+/* ================================ */
+
 footer {
   height: 60vh;
   padding: 100px;
