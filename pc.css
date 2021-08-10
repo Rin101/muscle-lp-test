@@ -59,6 +59,11 @@ li {
   animation: slidein ease-in-out 0.2s;
 }
 
+.scroll-up-button:hover {
+  transform: scale(1.2) rotate(180deg);
+  transition: ease-in-out 0.2s;
+}
+
 @keyframes slidein {
   0% {
     opacity: 0;
