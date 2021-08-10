@@ -28,6 +28,8 @@
   padding: 10px;
   text-align: center;
   width: 20%;
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
 .two-mota .two-expl-title {
@@ -36,11 +38,7 @@
 }
 
 .two-cm3 .two-expl-title {
-  /* border: solid 3px var(--greenblue); */
   border-bottom: solid 4px var(--greenblue);
-  font-size: large;
-  font-weight: bold;
-  /* border-radius: 5px; */
 }
 
 .illustration {
@@ -90,7 +88,7 @@
 }
 
 .kiban-img img {
-  height: 80px;
+  height: 7rem;
 }
 
 .kiban-text {
@@ -98,7 +96,7 @@
   border-radius: 10px;
   font-size: 0.7rem;
   text-align: center;
-  padding: 40px 30px 5px 30px;
+  padding: 4rem 3rem 1rem 3rem;
 }
 
 .plc-draw {
@@ -108,8 +106,8 @@
 }
 
 .plc-driver {
-  height: 60px;
-  width: 30px;
+  height: 5rem;
+  width: 3rem;
   border: solid 1.5px var(--greenblue);
   border-radius: 3px;
   display: flex;
@@ -131,8 +129,8 @@
 }
 
 .plc-mota {
-  height: 30px;
-  width: 50px;
+  height: 3rem;
+  width: 5rem;
   border: solid 1.5px var(--greenblue);
   border-radius: 3px;
   display: flex;
@@ -168,10 +166,10 @@
 }
 
 .cm3-kiban-img {
-  height: 80px;
+  height: 7rem;
 }
 
-.driver- {
+.driver-fuyou {
   margin: 10px;
   display: flex;
   flex-direction: column;
@@ -179,14 +177,14 @@
   align-items: center;
 }
 
-.driver- div {
+.driver-fuyou div {
   height: 70px;
   width: 30px;
   border-radius: 3px;
   border: dotted 2px rgba(0, 0, 0, 0.4);
 }
 
-.driver- p {
+.driver-fuyou p {
   text-align: center;
   font-size: 0.6rem;
   color: gray;

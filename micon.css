@@ -56,7 +56,7 @@ li {
   right: 5%;
   font-size: 1.3rem;
   cursor: pointer;
-  /* z-index: 1000; */
+  z-index: 1000;
   animation: slidein ease-in-out 0.2s;
 }
 
@@ -274,7 +274,7 @@ nav {
 
 .one {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   overflow: hidden;
 }
 
@@ -285,7 +285,7 @@ nav {
 .seg-title-container {
   display: flex;
   align-items: flex-end;
-  margin-bottom: 50px;
+  margin-bottom: 2rem;
 }
 
 .seg-number {
@@ -308,6 +308,11 @@ nav {
   border-bottom: solid 2px gray;
   color: gray;
   font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.seg-title-one {
+  font-size: 1.2rem !important;
 }
 
 .seg-content {
@@ -327,16 +332,24 @@ nav {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: minmax(100, auto);
-  margin-right: 15px;
+  margin-right: 4rem;
 }
 
 #image-box-two {
   display: flex;
   margin-bottom: 20px;
+  position: relative;
 }
 
 #image-box-two img {
-  height: 25px;
+  height: 4rem;
+  margin: 0 !important;
+}
+
+#micon-arrow {
+  position: absolute;
+  right: 100%;
+  bottom: 100%;
 }
 
 .image-box img {
@@ -420,8 +433,21 @@ nav {
 
 .seg-three {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  width: 60%;
+}
+
+.seg-three-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+
+.seg-three p {
+  margin: 1rem 0;
 }
 
 /* ------------------------ */
