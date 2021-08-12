@@ -73,7 +73,8 @@
 .line {
   height: 4px;
   width: 30px;
-  background: rgba(0, 0, 0, 0.4);
+  background: var(--greenblue);
+  border-radius: 3px;
 }
 
 .kiban {

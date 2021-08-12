@@ -323,20 +323,25 @@ nav {
   border: solid 1px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
   padding: 0.7rem 1rem;
-  margin-bottom: 20px;
+  margin-bottom: 0.7rem;
+}
+
+.draw-text {
+  font-size: 0.9rem;
 }
 
 .graph {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 1rem 0;
+  margin: 0.7rem 0 !important;
 }
 
 .line {
   height: 4px;
   width: 30px;
-  background: rgba(0, 0, 0, 0.4);
+  background: var(--greenblue);
+  border-radius: 3px;
 }
 
 /* --- */
@@ -346,7 +351,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 8rem;
+  height: 6rem;
   width: 3rem;
 }
 
@@ -379,8 +384,12 @@ nav {
 
 .draw-sensor p {
   text-align: center;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   color: rgba(0, 0, 0, 0.4);
+}
+
+.kidou-draw-img {
+  height: 8rem !important;
 }
 
 /* --- */
@@ -392,8 +401,8 @@ nav {
 }
 
 #plc-box {
-  height: 6rem;
-  width: 4rem;
+  height: 5rem;
+  width: 3rem;
   border: solid 1.5px var(--greenblue);
   border-radius: 5px;
   display: flex;
@@ -432,7 +441,7 @@ nav {
 }
 
 .plc-driver {
-  height: 6rem;
+  height: 5rem;
   width: 3rem;
   border: solid 1.5px var(--greenblue);
   border-radius: 3px;
@@ -493,8 +502,9 @@ nav {
 
 .graph-text {
   border-top: solid 1px rgba(0, 0, 0, 0.2);
-  padding: 2rem 0;
+  padding: 2rem 0 0.9rem 0;
   position: relative;
+  overflow: hidden;
 }
 
 .graph-text-item {
@@ -533,7 +543,6 @@ nav {
 }
 
 .draw-title {
-  font-size: 1.3rem;
   text-align: center !important;
 }
 
