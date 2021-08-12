@@ -322,7 +322,7 @@ nav {
 .draw {
   border: solid 1px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
-  padding: 30px 30px 1rem 30px;
+  padding: 0.7rem 1rem;
   margin-bottom: 20px;
 }
 
@@ -661,7 +661,7 @@ nav {
 .three-text-little {
   margin-top: 10px;
   color: rgba(0, 0, 0, 0.8);
-  font-size: 0.7rem;
+  font-size: 0.9rem;
 }
 
 /* ========================== */
@@ -670,7 +670,7 @@ nav {
   color: rgba(0, 0, 0, 0.8);
   margin: 20px 0;
   line-height: 30px;
-  text-align: center;
+  text-align: left;
 }
 
 .mota-dousa-graph-container {

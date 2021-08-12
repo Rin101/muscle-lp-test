@@ -594,7 +594,7 @@ nav {
 
 .four-text-wrapper {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
 }
 
@@ -602,13 +602,6 @@ nav {
   display: flex;
   align-items: center;
   margin-right: 2rem;
-}
-
-.four-text-container div {
-  height: 3rem;
-  width: 0.3rem;
-  margin-right: 1rem;
-  background: var(--greenblue);
 }
 
 .four-text {
@@ -635,6 +628,11 @@ nav {
   border: solid 1px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
   display: flex;
+  flex-direction: column;
+}
+
+.four-graph-content {
+  display: flex;
 }
 
 .four-right {
@@ -645,13 +643,14 @@ nav {
 .right-top {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  margin: 1rem 0 2rem 0;
 }
 
 .right-top p {
   font-weight: bold;
   color: rgba(0, 0, 0, 0.7);
-  margin: 20px;
+  margin: 20px 1rem 20px 20px;
 }
 
 th,
@@ -668,10 +667,12 @@ td {
 .four-left-app {
   padding: 10px;
   border-radius: 5px;
-  background: rgb(179, 179, 179);
+  background: rgb(212, 212, 212);
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 50%;
+  margin-bottom: 2rem;
 }
 
 .four-left-text {
