@@ -446,6 +446,10 @@ nav {
   width: fit-content;
 }
 
+.seg-three-images img {
+  margin-right: 1rem;
+}
+
 .seg-three p {
   margin: 1rem 0;
 }
@@ -497,6 +501,7 @@ nav {
 
 .big-image .double-p div {
   margin: 0 50px;
+  width: max-content;
 }
 
 .big-image .double-p div p {
