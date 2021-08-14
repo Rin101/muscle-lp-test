@@ -96,16 +96,19 @@ section {
 .conversation {
   border-radius: 20px;
   /* background: #bdd7ee; */
+  /* background: rgb(236, 238, 253); */
   padding: 30px;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .conversation a {
-  color: blue;
+  /* color: rgb(65, 65, 235); */
+  color: rgb(102, 102, 230);
   text-decoration: underline;
 }
 
 .conversation a:hover {
-  color: var(--greenblue);
+  color: rgba(112, 112, 221, 0.7);
 }
 
 .question-container {
