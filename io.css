@@ -99,6 +99,15 @@ section {
   padding: 30px;
 }
 
+.conversation a {
+  color: blue;
+  text-decoration: underline;
+}
+
+.conversation a:hover {
+  color: var(--greenblue);
+}
+
 .question-container {
   display: flex;
   padding: 10px;
