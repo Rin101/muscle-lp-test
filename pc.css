@@ -133,14 +133,14 @@ section {
 
 .question {
   /* border: solid 0.2rem var(--rootlightblue); */
-  border: solid 0.2rem rgb(3, 3, 65);
+  border: solid 0.1rem rgb(73, 80, 87);
   /* color: white !important; */
 }
 
 .answer {
   /* background: var(--textgreen); */
   /* border: solid 2px var(--textgreen); */
-  border: solid 0.2rem rgb(4, 70, 4);
+  border: solid 0.1rem rgb(73, 80, 87);
   /* color: white !important; */
 }
 
@@ -154,13 +154,46 @@ section {
   justify-content: center;
   text-align: left;
   color: rgba(0, 0, 0, 0.7);
+  position: relative;
+  border-radius: 0.4em;
+}
+
+.question:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-right-color: rgb(73, 80, 87);
+  border-left: 0;
+  border-bottom: 0;
+  margin-top: -10px;
+  margin-left: -20px;
+}
+
+.answer:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-left-color: rgb(73, 80, 87);
+  border-right: 0;
+  border-bottom: 0;
+  margin-top: -10px;
+  margin-right: -20px;
 }
 
 .customer-icon {
   border-radius: 50%;
   height: 80px;
   width: 80px;
-  background: var(--rootlightblue);
+  /* background: var(--rootlightblue); */
+  background: rgb(73, 80, 87);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -168,7 +201,13 @@ section {
 
 .customer-icon i {
   font-size: 50px;
-  color: #1d759e;
+  /* color: #1d759e; */
+  color: white;
+}
+
+.customer-service-icon {
+  font-size: 50px;
+  color: rgb(73, 80, 87);
 }
 
 .customer-service-icon {
@@ -178,7 +217,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: solid 2px var(--textgreen);
+  border: solid 4px rgb(73, 80, 87);
 }
 
 .customer-service-icon img {
@@ -189,7 +228,7 @@ section {
 
 .speech-bubble {
   position: relative;
-  background: var(--rootlightblue);
+  border: solid 0.1rem rgb(73, 80, 87);
   color: rgba(0, 0, 0, 0.7);
   border-radius: 0.4em;
   padding: 15px;
@@ -204,7 +243,7 @@ section {
   width: 0;
   height: 0;
   border: 20px solid transparent;
-  border-top-color: var(--rootlightblue);
+  border-top-color: rgb(73, 80, 87);
   border-bottom: 0;
   border-left: 0;
   margin-left: -10px;
