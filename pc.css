@@ -100,7 +100,7 @@ section {
 .conversation {
   border-radius: 20px;
   /* background: #bdd7ee; */
-  background: rgb(236, 238, 253);
+  /* background: rgb(236, 238, 253); */
   padding: 30px;
 }
 
@@ -130,11 +130,13 @@ section {
 }
 
 .question {
-  background: var(--rootlightblue);
+  /* background: var(--rootlightblue); */
+  border: solid 2px var(--rootlightblue);
 }
 
 .answer {
-  background: var(--textgreen);
+  /* background: var(--textgreen); */
+  border: solid 2px var(--textgreen);
 }
 
 .question,
