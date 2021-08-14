@@ -853,23 +853,30 @@ th {
   cursor: pointer;
 }
 
-.catalog-download {
+.catalog-download-container {
   width: 20rem;
+  margin-bottom: 2rem;
+}
+
+.catalog-download {
+  display: block;
   padding: 1rem 0;
+  height: 100%;
   position: relative;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  text-align: center;
   background: rgb(218, 53, 53);
   color: white;
   border-radius: 5px;
-  margin-bottom: 2rem;
   cursor: pointer;
 }
 
-.contact {
-  cursor: pointer;
+.contact-container {
   width: 20rem;
+}
+
+.contact {
+  width: 100%;
+  cursor: pointer;
   padding: 1rem 0;
   position: relative;
   display: flex;
