@@ -124,11 +124,13 @@ section {
 }
 
 .question {
-  background: var(--rootlightblue);
+  /* background: var(--rootlightblue); */
+  border: solid 2px var(--rootlightblue);
 }
 
 .answer {
-  background: var(--textgreen);
+  /* background: var(--textgreen); */
+  border: solid 2px var(--textgreen);
 }
 
 .question,
