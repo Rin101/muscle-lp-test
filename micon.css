@@ -274,7 +274,7 @@ nav {
 
 .one {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   overflow: hidden;
 }
 
