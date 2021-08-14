@@ -136,13 +136,16 @@ section {
 }
 
 .question {
-  /* background: var(--rootlightblue); */
-  border: solid 2px var(--rootlightblue);
+  /* border: solid 0.2rem var(--rootlightblue); */
+  border: solid 0.2rem rgb(3, 3, 65);
+  /* color: white !important; */
 }
 
 .answer {
   /* background: var(--textgreen); */
-  border: solid 2px var(--textgreen);
+  /* border: solid 2px var(--textgreen); */
+  border: solid 0.2rem rgb(4, 70, 4);
+  /* color: white !important; */
 }
 
 .question,
