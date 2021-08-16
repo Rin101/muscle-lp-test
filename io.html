@@ -188,59 +188,61 @@
         <div class="section-title">
             <h3>PTP動作とプログラム動作の違い</h3>
         </div>
-        <div class="draw">
-            <p class="draw-title">PLCからPTPでモータを制御する場合、各位置決め完了毎にPLCで処理する必要があります</p>
-            <div class="graph">
-                <div class="draw-sensor">
-                    <div class="draw-sensor-box"><div class="sensor-box"></div><div class="sensor-line"></div></div>
-                    <p>センサ</p>
-                </div>
-                <div class="line"></div>
-                <div class="plc-draw">
-                    <div id="plc-box"><div><p>P</p><p>L</p><p>C</p></div></div>
-                    <div class="plc-draw-box"><div></div></div>
-                    <div class="plc-draw-box"><div></div></div>
-                </div>
-                <div class="line"></div>
-                <div class="plc-draw">
-                    <div class="plc-driver"><div><p>ド</p><p>ラ</p><p>イ</p><p>バ</p></div></div>
-                    <div class="plc-mota"><div class="mota-text"><p>モータ</p></div><div class="mota"></div></div>
-                </div>
-            </div>
-            <div class="ptp-graph-texts">
-                <div class=""></div>
-                <div class="ptp-graph-text">
-                    <p>①ポイント1に移動指示</p>
-                    <p>④ポイント1移動完了受付</p>
-                    <p>⑤初期位置移動指示</p>
-                    <p>⑧初期位置移動完了受付</p>
-                </div>
-                <div class="ptp-graph-text">
-                    <p>②ポイント1に移動</p>
-                    <p>③ポイント1移動完了</p>
-                    <p>⑥初期位置に戻る</p>
-                    <p>⑦初期位置移動完了</p>
-                </div>
-            </div>
-        </div>
-        <div class="draw">
-            <p class="draw-title">CM3+にプログラムを保持させることで、
-                起動信号を送るだけであとはCM3+が状況に応じた制御を行います</p>
-            <div class="ptp-draw-bottom-container">
-                <div class="graph ptp-draw-bottom">
+        <div class="ptp-content">
+            <div class="draw">
+                <p class="draw-title">PLCからPTPでモータを制御する場合、各位置決め完了毎にPLCで処理する必要があります</p>
+                <div class="graph">
                     <div class="draw-sensor">
                         <div class="draw-sensor-box"><div class="sensor-box"></div><div class="sensor-line"></div></div>
                         <p>センサ</p>
                     </div>
                     <div class="line"></div>
-                    <img class="kidou-draw-img" src="./assets/画像/CM3-17S-small.jpg" alt="">
+                    <div class="plc-draw">
+                        <div id="plc-box"><div><p>P</p><p>L</p><p>C</p></div></div>
+                        <div class="plc-draw-box"><div></div></div>
+                        <div class="plc-draw-box"><div></div></div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="plc-draw">
+                        <div class="plc-driver"><div><p>ド</p><p>ラ</p><p>イ</p><p>バ</p></div></div>
+                        <div class="plc-mota"><div class="mota-text"><p>モータ</p></div><div class="mota"></div></div>
+                    </div>
+                </div>
+                <div class="ptp-graph-texts">
+                    <div class=""></div>
+                    <div class="ptp-graph-text">
+                        <p>①ポイント1に移動指示</p>
+                        <p>④ポイント1移動完了受付</p>
+                        <p>⑤初期位置移動指示</p>
+                        <p>⑧初期位置移動完了受付</p>
+                    </div>
+                    <div class="ptp-graph-text">
+                        <p>②ポイント1に移動</p>
+                        <p>③ポイント1移動完了</p>
+                        <p>⑥初期位置に戻る</p>
+                        <p>⑦初期位置移動完了</p>
+                    </div>
                 </div>
             </div>
-            <div class="ptp-graph-texts">
-                <div class=""></div>
-                <div class="ptp-graph-text">
-                    <p>①ポイント1に移動</p>
-                    <p>②初期位置に戻る</p>
+            <div class="draw">
+                <p class="draw-title">CM3+にプログラムを保持させることで、
+                    起動信号を送るだけであとはCM3+が状況に応じた制御を行います</p>
+                <div class="ptp-draw-bottom-container">
+                    <div class="graph ptp-draw-bottom">
+                        <div class="draw-sensor">
+                            <div class="draw-sensor-box"><div class="sensor-box"></div><div class="sensor-line"></div></div>
+                            <p>センサ</p>
+                        </div>
+                        <div class="line"></div>
+                        <img class="kidou-draw-img" src="./assets/画像/CM3-17S-small.jpg" alt="">
+                    </div>
+                </div>
+                <div class="ptp-graph-texts">
+                    <div class=""></div>
+                    <div class="ptp-graph-text">
+                        <p>①ポイント1に移動</p>
+                        <p>②初期位置に戻る</p>
+                    </div>
                 </div>
             </div>
         </div>

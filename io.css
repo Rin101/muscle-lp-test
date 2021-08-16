@@ -646,6 +646,11 @@ nav {
   margin: 40px 0 1rem 0;
 }
 
+.ptp-content {
+  width: 70%;
+  margin: auto;
+}
+
 .ptp-graph-texts {
   display: flex;
   justify-content: space-around;
