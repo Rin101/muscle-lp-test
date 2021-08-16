@@ -478,6 +478,23 @@ th {
   cursor: pointer;
 }
 
+.see-product-container {
+  width: 20rem;
+  margin-bottom: 2rem;
+}
+
+.see-product {
+  display: block;
+  padding: 1rem 0;
+  height: 100%;
+  position: relative;
+  text-align: center;
+  background: rgb(255, 165, 0);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 .catalog-download-container {
   width: 20rem;
   margin-bottom: 2rem;
