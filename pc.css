@@ -600,8 +600,7 @@ nav {
   font-size: 1.5rem;
 }
 
-.two-three img {
-  max-height: 300px;
+.two-three iframe {
   max-width: 70%;
 }
 
