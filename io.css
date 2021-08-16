@@ -348,7 +348,7 @@ nav {
 .kidou-content {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
+  align-items: center;
   margin-top: 3rem;
 }
 
@@ -377,12 +377,12 @@ nav {
 
 .kidou-images img {
   width: 6rem;
-  margin-bottom: 2rem;
+  margin: 0 auto 2rem auto;
 }
 
 .kidou-img1 {
   grid-column: 1;
-  margin-right: 10px;
+  /* margin-right: 10px; */
 }
 
 .kidou-img2 {
@@ -393,6 +393,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   font-size: 2rem;
   margin: 0 1rem;
   color: rgba(0, 0, 0, 0.7);
@@ -975,7 +976,7 @@ th {
 /* ================================ */
 
 footer {
-  height: 60vh;
+  height: 20vh;
   padding: 100px;
   display: flex;
   justify-content: center;
