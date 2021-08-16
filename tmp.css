@@ -1,0 +1,66 @@
+/* ===================== */
+
+.kidou-text {
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: left;
+}
+
+.kidou-text p {
+  margin-top: 10px;
+}
+
+.kidou-content {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.kidou-content-right-text {
+  text-align: center;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.kidou-content-right {
+  padding: 50px;
+}
+
+.kidou-images {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-rows: minmax(100px, auto);
+  margin-top: 20px;
+}
+
+.kidou-images img {
+  width: 6rem;
+  margin-bottom: 2rem;
+}
+
+.kidou-img1 {
+  grid-column: 1;
+  margin-right: 10px;
+}
+
+.kidou-img2 {
+  grid-column: 3;
+}
+
+.kidou-img-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin: 0 1rem;
+  color: rgba(0, 0, 0, 0.7);
+  height: 6rem;
+}
+
+.kidou-img-text1,
+.kidou-img-text2 {
+  text-align: center;
+}
+
+.kidou-img-text2 {
+  grid-column: 3;
+}
