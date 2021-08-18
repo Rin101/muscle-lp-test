@@ -268,7 +268,8 @@ nav {
 }
 
 .top-image h2 {
-  font-size: 3.5vw !important;
+  /* 3.5vw */
+  font-size: calc(95 / 27vw) !important;
 }
 
 .top-text {
