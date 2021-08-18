@@ -267,6 +267,10 @@ nav {
   position: relative;
 }
 
+.top-image h2 {
+  font-size: 3.5vw !important;
+}
+
 .top-text {
   position: absolute;
   top: 0;
