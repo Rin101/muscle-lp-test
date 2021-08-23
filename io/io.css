@@ -260,7 +260,7 @@ nav {
 .top-image {
   height: 90vh;
   width: 100%;
-  background: url("./assets/画像/IO-Top.jpg");
+  background: url("../assets/画像/IO-Top.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
