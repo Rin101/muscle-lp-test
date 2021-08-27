@@ -1,5 +1,6 @@
 *.xlsx
 *.pdf
 *.pptx
-./wp-edit-theme/
-./wp-optimized/
+/wp-edit-theme
+/wp-optimized
+/xls-pdfs
