@@ -1,23 +1,26 @@
+<?php
+/**
+* Template Name: CM3 PC
+*/
+?>
 <!DOCTYPE html>
-<html lang="en">
+<!-- <html lang="en"> -->
 <head>
-    <link rel="stylesheet" href="pc.css" type="text/css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-    <title>MUSCLE PC</title>
 </head>
-<body>
+<body class="CM3-PC-body">
     <div class="scroll-up-button"><i class="fas fa-caret-down"></i></div>
-    <div class="nav-container">
+	<div class="nav-container">
         <nav>
             <!-- <div class="logo"><img src="" alt=""></div> -->
-            <div class="nav-item"><a href="https://musclecorp.com/motion/">モーションTOP</a></div>
-            <div class="nav-item"><a href="https://musclecorp.com/motion/cm3-top/">製品概要</a></div>
-            <div class="nav-item"><a href="https://musclecorp.com/motion/cm3-spec/">仕様/図面</a></div>
-            <div class="nav-item"><a href="https://musclecorp.com/motion/coolmuscle3newcatalog/">カタログダウンロード</a></div>
-            <div class="nav-item"><a href="https://musclecorp.com/motion/contactus/">問い合わせ</a></div>
+            <div class="nav-item"><a class="CM3-MICON-a" href="https://musclecorp.com/motion/">モーションTOP</a></div>
+            <div class="nav-item"><a class="CM3-MICON-a" href="https://musclecorp.com/motion/cm3-top/">製品概要</a></div>
+            <div class="nav-item"><a class="CM3-MICON-a" href="https://musclecorp.com/motion/cm3-spec/">仕様/図面</a></div>
+            <div class="nav-item"><a class="CM3-MICON-a" href="https://musclecorp.com/motion/coolmuscle3newcatalog/">カタログダウンロード</a></div>
+            <div class="nav-item"><a class="CM3-MICON-a" href="https://musclecorp.com/motion/contactus/">問い合わせ</a></div>
         </nav>
     </div>
     <div class="top-image">
@@ -27,7 +30,7 @@
         <div class="layer"></div>
         <div class="see-catalog"></div>
     </div>
-    <section class="one">
+    <section class="CM3-PC-section one">
         <div class="customer">
             <div class="speech-bubble">
                 <p>試作機開発用にPCから直接モータを接続して<br>簡単にモータ動作やモニタリングをしたい</p>
@@ -59,7 +62,7 @@
         </div>
     </section>
     <div class="border"></div>
-    <section class="two">
+    <section class="CM3-PC-section two">
         <div class="section-title">
             <h3>PC制御による簡易駆動</h3>
         </div>
@@ -91,7 +94,7 @@
                 <h3>マイコンを使用する場合</h3>
                 <div class="illustration">
                     <div class="kiban-img">
-                        <img src="./assets/画像/Kiban.jpg" alt="">
+                        <img src="https://rin101.github.io/muscle-lp-test/assets/画像/Kiban.jpg" alt="">
                     </div>
                     <div class="line"></div>
                     <div class="plc-draw">
@@ -113,7 +116,7 @@
                     <div class="cm3-draw">
                         <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 24 24"><path d="M22 3.2c0-.663-.537-1.2-1.2-1.2h-17.6c-.663 0-1.2.537-1.2 1.2v11.8h20v-11.8zm-2 9.8h-16v-9h16v9zm2 3h-20c-.197.372-2 4.582-2 4.998 0 .522.418 1.002 1.002 1.002h21.996c.584 0 1.002-.48 1.002-1.002 0-.416-1.803-4.626-2-4.998zm-12.229 5l.467-1h3.523l.467 1h-4.457z"/></svg>
                         <div class="line"></div>
-                        <img src="./assets/画像/cm3.png" alt="">
+                        <img src="https://rin101.github.io/muscle-lp-test/assets/画像/cm3.png" alt="">
                     </div>
                     <div class="big-image-texts">
                         <h2>CM3+</h2>
@@ -138,7 +141,7 @@
         </div>
         <div class="answer-container">
             <div class="answer">
-                <p>弊社で提供しているソフトウェア <a href="https://musclecorp.com/motionmember/download/?memid=2">「COOL WORKS QUICK」(無償)</a>はWindows10対応です。</p>
+                <p>弊社で提供しているソフトウェア <a class="CM3-PC-a" href="https://musclecorp.com/motionmember/download/?memid=2">「COOL WORKS QUICK」(無償)</a>はWindows10対応です。</p>
                 <p>WifiまたはBluetooth通信によるタブレット、スマートフォンからの制御も個別対応となりますが対応できます。</p>
             </div>
             <div class="customer-service-icon">
@@ -147,7 +150,7 @@
         </div>
     </div>
     <div class="border"></div>
-    <section class="three">
+    <section class="CM3-PC-section three">
         <div class="section-title">
             <h3>PC制御による多軸駆動</h3>
         </div>
@@ -164,7 +167,7 @@
                 </div>
                 <p>ドライバ不要</p>
             </div>
-            <img src="./assets/画像/CM3Daisy chain.jpg" alt="">
+            <img src="https://rin101.github.io/muscle-lp-test/assets/画像/CM3Daisy chain.jpg" alt="">
         </div>
     </section>
     <div class="border"></div>
@@ -189,7 +192,7 @@
         </div>
     </div>
     <div class="border"></div>
-    <section class="four">
+    <section class="CM3-PC-section four">
         <div class="section-title">
             <h3>PC制御によるモニタリング</h3>
         </div>
@@ -197,8 +200,8 @@
             <div class="four-text-wrapper">
                 <p class="four-text">モータのステータス取得やグラフ描画などモニタリング機能も豊富に搭載されています。</p>
                 <div class="four-img-container">
-                    <img src="./assets/画像/graph1.png" alt="">
-                    <img class="four-img-two" src="./assets/画像/graph2.png" alt="">
+                    <img src="https://rin101.github.io/muscle-lp-test/assets/画像/graph1.png" alt="">
+                    <img class="four-img-two" src="https://rin101.github.io/muscle-lp-test/assets/画像/graph2.png" alt="">
                 </div>
             </div>
             <div class="four-graph">
@@ -209,7 +212,7 @@
                     <div class="four-right">
                         <div class="right-top">
                             <p>ねじ締め耐久試験</p>
-                            <img src="./assets/画像/pc-ill1.png" alt="">
+                            <img src="https://rin101.github.io/muscle-lp-test/assets/画像/pc-ill1.png" alt="">
                         </div>
                         <table cellspacing="0" cellpadding="5px">
                             <thead>
@@ -283,7 +286,7 @@
         </div>
     </div>
     <div class="border"></div>
-    <section class="five">
+    <section class="CM3-PC-section five">
         <div class="section-title">
             <h3>お客様専用PCソフトウェア開発</h3>
         </div>
@@ -293,31 +296,27 @@
         </div>
     </section>
     <div class="border"></div>
-    <section class="footer">
+    <section class="CM3-PC-section footer">
         <div class="footer-container">
-            <img class="catalog-img" src="./assets/画像/pic_last02.png" alt="">
+            <img class="catalog-img" src="https://rin101.github.io/muscle-lp-test/assets/画像/pic_last02.png" alt="">
             <div class="footer-buttons">
                 <div class="see-product-container">
-                    <a href="https://musclecorp.com/motion/cm3-top/" class="see-product">
+                    <a class="CM3-PC-a see-product" href="https://musclecorp.com/motion/cm3-top/">
                         <p><i class="fas fa-external-link-alt"></i> CM３製品概要を見る</p>
                     </a>
                 </div>
                 <div class="catalog-download-container">
-                    <a href="https://musclecorp.com/motion/coolmuscle3newcatalog/" class="catalog-download">
+                    <a class="CM3-PC-a catalog-download" href="https://musclecorp.com/motion/coolmuscle3newcatalog/">
                         <p><i class="fas fa-download"></i> カタログダウンロード</p>
                     </a>
                 </div>
                 <div class="contact-container">
-                    <a href="https://musclecorp.com/motion/contactus/" class="contact">
+                    <a class="CM3-PC-a contact" href="https://musclecorp.com/motion/contactus/">
                         <p class="contact-title">お問い合わせ</p>
                     </a>
                 </div>
             </div>
         </div>
     </section>
-    <footer>
-    </footer>
-
-    <script src="./script.js"></script>
 </body>
 </html>
