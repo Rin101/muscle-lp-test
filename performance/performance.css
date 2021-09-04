@@ -347,6 +347,61 @@ header a {
 
 /* ================================ */
 
+.seinou-block {
+  display: flex;
+}
+
+.seinou-left {
+  width: 40%;
+}
+
+.seinou-right {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seinou-right img {
+  width: 60%;
+}
+
+.seinou-topic-title-container {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+}
+
+.seinou-topic-num {
+  height: 50px;
+  width: 50px;
+  background: gray;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seinou-topic-num p {
+  display: inline-block;
+  font-weight: bold;
+}
+
+.seinou-topic-title {
+  padding: 10px 10px 10px 1.3rem;
+  border-bottom: solid 2px gray;
+  color: gray;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.seinou-topic-content {
+  width: 100%;
+  padding: 1rem 2rem;
+}
+
+/* ================================ */
+
 .CM3-PC-footer {
   position: relative;
   display: flex;
