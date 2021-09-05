@@ -90,7 +90,7 @@ a {
 
 section {
   width: 100%;
-  padding: 50px;
+  padding: 30px;
 }
 
 .section-title {
@@ -402,6 +402,243 @@ header a {
 
 /* ================================ */
 
+.saikousokudo,
+.toruku {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.saikousokudo-title {
+  height: max-content;
+  background: rgba(0, 0, 0, 0.753);
+  padding: 0 1rem;
+  width: max-content;
+  color: white;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.saikousokudo-graph-container {
+  width: 70%;
+}
+
+.saikousokudo-graph {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  border: solid 1px rgba(0, 0, 0, 0.2);
+  border-radius: 3rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.saikousokudo-left {
+  width: 30%;
+}
+
+.saikousokudo-right {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.saikousokudo-right img {
+  width: 60%;
+}
+
+/* =========== */
+
+.saikousokudo-plc-draw {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  width: 70%;
+}
+
+.plc-driver {
+  height: 60px;
+  width: 30px;
+  border: solid 1.5px var(--greenblue);
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plc-driver div {
+  background: var(--darkblue);
+  height: 95%;
+  width: 90%;
+  border-radius: 1px;
+  color: white;
+  font-size: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.plc-mota {
+  height: 30px;
+  width: 50px;
+  border: solid 1.5px var(--greenblue);
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.mota {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(100%, -50%);
+  border-top: solid 1.5px var(--greenblue);
+  border-bottom: solid 1.5px var(--greenblue);
+  border-right: solid 1.5px var(--greenblue);
+  background: white;
+  height: 5px;
+  width: 15px;
+}
+
+.mota-text {
+  background: var(--darkblue);
+  height: 80%;
+  width: 90%;
+  border-radius: 1px;
+  color: white;
+  font-size: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.drv-fuyou {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.drv-fuyou .box {
+  height: 3rem;
+  width: 2rem;
+  border: dotted 2px rgba(0, 0, 0, 0.5);
+  margin: 5px;
+}
+
+.drv-fuyou p {
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* ================================ */
+
+.teishindou-container {
+  width: 90%;
+  border: solid 1px rgba(0, 0, 0, 0.2);
+  border-radius: 3rem;
+  padding: 1rem 2rem;
+  margin: 0 auto;
+}
+
+.teishindou-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.teishindou-left {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.teishindou-left img {
+  width: 80%;
+}
+
+.teishindou-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: minmax(0, auto);
+  background: rgb(241, 241, 241);
+}
+
+.teishindou-grid div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.teishindou-grid1 {
+  border-right: solid 1px rgb(97, 97, 97);
+  border-bottom: solid 1px rgb(97, 97, 97);
+  padding: 0.5rem;
+}
+
+.teishindou-grid2 {
+  border-left: solid 1px rgb(97, 97, 97);
+  border-bottom: solid 1px rgb(97, 97, 97);
+  padding: 0.5rem;
+}
+
+.teishindou-grid3 {
+  border-right: solid 1px rgb(97, 97, 97);
+  border-top: solid 1px rgb(97, 97, 97);
+  padding: 0.5rem;
+}
+
+.teishindou-grid4 {
+  border-left: solid 1px rgb(97, 97, 97);
+  border-top: solid 1px rgb(97, 97, 97);
+  padding: 0.5rem;
+}
+
+/* ================================ */
+
+.shouene {
+  background: rgb(216, 216, 216);
+}
+
+.shouene-graph {
+  margin: 3rem 0;
+}
+
+.shouene-graph-title {
+  margin-bottom: 1rem;
+}
+
+.shouene-graph-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.shouene-graph-content img {
+  width: 45%;
+}
+
+.shouene-text {
+  width: 55%;
+  padding: 3rem;
+}
+
+.shouene-top-text p,
+.shouene-text p {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 0.9rem;
+}
+
+/* ================================ */
+
 .CM3-PC-footer {
   position: relative;
   display: flex;
@@ -481,6 +718,7 @@ header a {
 }
 
 .catalog-download:hover,
+.see-product:hover,
 .contact:hover,
 .catalog-img:hover {
   opacity: 0.8;

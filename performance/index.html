@@ -113,34 +113,82 @@
     </section>
     <div class="border"></div>
     <section class="saikousokudo">
-        <div class="saikousokudo-graph">
-            <div class="saikousokudo-left">
-                <p>ステッピングモータ</p>
-                <div class="saikousokudo-ill">
-                    <div class="driver"></div>
-                    <div class="mota"></div>
-                </div>
-            </div>
-            <div class="saikousokudo-right">
-                <img src="https://rin101.github.io/muscle-lp-test/assets/画像/sokyu-graph1.png" alt="">
-            </div>
+        <div class="saikousokudo-title">
+            <p>最高速度</p>
         </div>
-        <div class="saikousokudo-graph">
-            <div class="saikousokudo-left">
-                <p>CM3</p>
-                <div class="saikousokudo-ill">
-                    <div class="driver-fuyou"></div>
-                    <div class="mota"></div>
+        <div class="saikousokudo-graph-container">
+            <div class="saikousokudo-graph">
+                <div class="saikousokudo-left">
+                    <p>ステッピングモータ</p>
+                    <div class="saikousokudo-ill">
+                        <div class="saikousokudo-plc-draw">
+                            <div class="plc-driver"><div><p>ド</p><p>ラ</p><p>イ</p><p>バ</p></div></div>
+                            <div class="plc-mota"><div class="mota-text"><p>モータ</p></div><div class="mota"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="saikousokudo-right">
+                    <img src="https://rin101.github.io/muscle-lp-test/assets/画像/sokyu-graph1.png" alt="">
                 </div>
             </div>
-            <div class="saikousokudo-right">
-                <img src="https://rin101.github.io/muscle-lp-test/assets/画像/sokyu-graph2.png" alt="">
+            <div class="saikousokudo-graph">
+                <div class="saikousokudo-left">
+                    <p>CM3</p>
+                    <div class="saikousokudo-ill">
+            <!-- ------------------------------ -->
+                    <div class="saikousokudo-plc-draw">
+                        <div class="drv-fuyou">
+                            <div class="box">
+                            </div>
+                            <p>ドライバ不要</p>
+                        </div>
+                        <div class="plc-mota"><div class="mota-text"><p>CM3</p></div><div class="mota"></div></div>
+                    </div>
+            <!-- ------------------------------- -->
+                    </div>
+                </div>
+                <div class="saikousokudo-right">
+                    <img src="https://rin101.github.io/muscle-lp-test/assets/画像/sokyu-graph2.png" alt="">
+                </div>
             </div>
         </div>
     </section>
     <div class="border"></div>
-    <div class="section-toruku">
-    </div>
+    <section class="toruku">
+        <div class="saikousokudo-title">
+            <p>トルク領域</p>
+        </div>
+        <div class="saikousokudo-graph-container">
+            <div class="saikousokudo-graph">
+                <div class="saikousokudo-left">
+                    <p>ステッピングモータ</p>
+                    <div class="saikousokudo-ill">
+                        <div class="saikousokudo-plc-draw">
+                            <div class="plc-driver"><div><p>ド</p><p>ラ</p><p>イ</p><p>バ</p></div></div>
+                            <div class="plc-mota"><div class="mota-text"><p>モータ</p></div><div class="mota"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="saikousokudo-right">
+                    <img src="https://rin101.github.io/muscle-lp-test/assets/画像/sokyu-graph3.png" alt="">
+                </div>
+            </div>
+            <div class="saikousokudo-graph">
+                <div class="saikousokudo-left">
+                    <p>CM3</p>
+                    <div class="saikousokudo-ill">
+                        <div class="saikousokudo-plc-draw">
+                            <div class="plc-driver"><div><p>ド</p><p>ラ</p><p>イ</p><p>バ</p></div></div>
+                            <div class="plc-mota"><div class="mota-text"><p>モータ</p></div><div class="mota"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="saikousokudo-right">
+                    <img src="https://rin101.github.io/muscle-lp-test/assets/画像/sokyu-graph4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
     <div class="border"></div>
     <div class="conversation">
         <div class="question-container">
@@ -177,7 +225,20 @@
             <div class="teishindou-content">
                 <div class="teishindou-left">
                     <img src="https://rin101.github.io/muscle-lp-test/assets/画像/teishindou-illustration.png" alt="">
-                    <img src="" alt="">
+                    <div class="teishindou-grid">
+                        <div class="teishindou-grid1">
+                            <p>ステッピングモータ</p>
+                        </div>
+                        <div class="teishindou-grid2">
+                            <p>CM3</p>
+                        </div>
+                        <div class="teishindou-grid3">
+                            <p>各ステップごとに停止するため、振動が大きくなる</p>
+                        </div>
+                        <div class="teishindou-grid4">
+                            <p>ベクトル制御により、ステッピングモータ特有の脈動を抑え、滑らかな制御が可能</p>
+                        </div>
+                    </div>
                     <p>振動が抑えられることでモータ回転時の音も静かになります。</p>
                 </div>
                 <div class="teishindou-right">
@@ -199,18 +260,22 @@
         </div>
         <div class="shouene-graph">
             <p class="shouene-graph-title">■モータ停止時温度比較(無負荷)</p>
-            <img src="" alt="">
-        </div>
-        <div class="shouene-text">
-            <p>常に一定の電流が流れる一般的なステッピングモータに対して、CM3は無負荷状態でのモータ停止時に位置を保持するためのトルクがほとんど必要ない為、必要最低限の電流のみ流し、発熱も抑えることができます。</p>
+            <div class="shouene-graph-content">
+                <img src="https://rin101.github.io/muscle-lp-test/assets/画像/shouene1.png" alt="">
+                <div class="shouene-text">
+                    <p>常に一定の電流が流れる一般的なステッピングモータに対して、CM3は無負荷状態でのモータ停止時に位置を保持するためのトルクがほとんど必要ない為、必要最低限の電流のみ流し、発熱も抑えることができます。</p>
+                </div>
+            </div>
         </div>
         <div class="shouene-graph">
             <p class="shouene-graph-title">■100RPM連続回転時温度比較(無負荷)</p>
-            <img src="" alt="">
-        </div>
-        <div class="shouene-text">
-            <p>一般的なステッピングモータは連続動作させることでモータ温度が上昇し続け、ドライバの温度保護機能により停止してしまいますが、
-                CM3は状況に応じた最適な電流制御により、発熱を抑えることができ、長時間の連続運転にもご使用いただけます。</p>
+            <div class="shouene-graph-content">
+                <img src="https://rin101.github.io/muscle-lp-test/assets/画像/shouene2.png" alt="">
+                <div class="shouene-text">
+                    <p>一般的なステッピングモータは連続動作させることでモータ温度が上昇し続け、ドライバの温度保護機能により停止してしまいますが、
+                        CM3は状況に応じた最適な電流制御により、発熱を抑えることができ、長時間の連続運転にもご使用いただけます。</p>
+                </div>
+            </div> 
         </div>
     </section>
     <div class="conversation">
