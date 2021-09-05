@@ -457,12 +457,13 @@ header a {
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
-  width: 70%;
+  width: 100%;
+  padding: 1rem 0;
 }
 
 .plc-driver {
-  height: 60px;
-  width: 30px;
+  height: 4rem;
+  width: 20%;
   border: solid 1.5px var(--greenblue);
   border-radius: 3px;
   display: flex;
@@ -484,8 +485,8 @@ header a {
 }
 
 .plc-mota {
-  height: 30px;
-  width: 50px;
+  height: 2.5rem;
+  width: 30%;
   border: solid 1.5px var(--greenblue);
   border-radius: 3px;
   display: flex;
@@ -548,6 +549,13 @@ header a {
   margin: 0 auto;
 }
 
+.teishindou-title {
+  width: 100%;
+  text-align: left;
+  font-size: 1.2rem;
+  margin: 1rem 0 1.5rem 1rem;
+}
+
 .teishindou-content {
   display: flex;
   justify-content: space-around;
@@ -563,6 +571,17 @@ header a {
 
 .teishindou-left img {
   width: 80%;
+  margin: 0.5rem 0;
+}
+
+.teishindou-left-text {
+  margin: 1rem 0 0.6rem 0;
+}
+
+.teishindou-left p {
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.8);
+  margin: 1rem 0 0.6rem 0;
 }
 
 .teishindou-grid {
@@ -593,13 +612,13 @@ header a {
 .teishindou-grid3 {
   border-right: solid 1px rgb(97, 97, 97);
   border-top: solid 1px rgb(97, 97, 97);
-  padding: 0.5rem;
+  padding: 0.8rem;
 }
 
 .teishindou-grid4 {
   border-left: solid 1px rgb(97, 97, 97);
   border-top: solid 1px rgb(97, 97, 97);
-  padding: 0.5rem;
+  padding: 0.8rem;
 }
 
 /* ================================ */
