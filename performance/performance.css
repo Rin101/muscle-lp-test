@@ -5,7 +5,8 @@
   --gray-background: #e7e6e6;
   --rootlightblue: #90ddf0;
   --greenblue: #2c666e;
-  --darkblue: #07393c;
+  /* --darkblue: #07393c; */
+  --darkblue: #45797c;
   --textgreen: #42f464;
 }
 
@@ -407,12 +408,13 @@ header a {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background: rgba(192, 192, 192, 0.2);
 }
 
 .saikousokudo-title {
   height: max-content;
   background: rgba(0, 0, 0, 0.753);
-  padding: 0 1rem;
+  padding: 5rem 1rem;
   width: max-content;
   color: white;
   height: 5rem;
@@ -420,28 +422,38 @@ header a {
   justify-content: center;
   align-items: center;
   border-radius: 5px;
+  font-weight: bold;
+  font-size: 1.1rem;
 }
 
 .saikousokudo-graph-container {
-  width: 70%;
+  width: 80%;
 }
 
 .saikousokudo-graph {
   display: flex;
   justify-content: space-around;
-  width: 90%;
-  border: solid 1px rgba(0, 0, 0, 0.2);
-  border-radius: 3rem;
+  width: 100%;
+  border: solid 1px rgba(0, 0, 0, 0.1);
+  border-radius: 2rem;
   padding: 1rem;
   margin-bottom: 1rem;
+  background: white;
 }
 
 .saikousokudo-left {
-  width: 30%;
+  width: 40%;
+  padding: 1rem;
+}
+
+.saikousokudo-graph-text {
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.8);
+  margin: 0.5rem 0 0 0;
 }
 
 .saikousokudo-right {
-  width: 70%;
+  width: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -463,7 +475,7 @@ header a {
 
 .plc-driver {
   height: 4rem;
-  width: 20%;
+  width: 15%;
   border: solid 1.5px var(--greenblue);
   border-radius: 3px;
   display: flex;
@@ -485,8 +497,8 @@ header a {
 }
 
 .plc-mota {
-  height: 2.5rem;
-  width: 30%;
+  height: 3rem;
+  width: 20%;
   border: solid 1.5px var(--greenblue);
   border-radius: 3px;
   display: flex;
