@@ -95,7 +95,7 @@ section {
 }
 
 .section-title {
-  background: gray;
+  background: var(--darkblue);
   color: white;
   padding: 10px 30px;
   display: inline-block;
@@ -398,6 +398,9 @@ header a {
 
 .seinou-block {
   display: flex;
+  margin-top: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.1);
 }
 
 .seinou-left {
@@ -446,7 +449,24 @@ header a {
 
 .seinou-topic-content {
   width: 100%;
-  padding: 1rem 2rem;
+  padding: 2rem 2rem;
+  border-radius: 1rem;
+  border: solid 1px rgba(192, 192, 192, 0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.seinou-topic-content p {
+  color: rgba(0, 0, 0, 0.8);
+  text-indent: 1rem;
+  position: relative;
+}
+
+.seinou-topic-span {
+  margin-top: 2rem;
+  font-size: 120%;
+  color: inherit !important;
 }
 
 /* ================================ */
@@ -708,13 +728,27 @@ header a {
 
 .shouene-text {
   width: 55%;
-  padding: 3rem;
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shouene-text p {
+  margin-bottom: 1rem;
+}
+
+.shouene-border {
+  width: 40%;
+  height: 0.3rem;
+  background: #618d34;
 }
 
 .shouene-top-text p,
 .shouene-text p {
   color: rgba(0, 0, 0, 0.8);
   font-size: 0.9rem;
+  text-indent: 0.9rem;
 }
 
 /* ================================ */
