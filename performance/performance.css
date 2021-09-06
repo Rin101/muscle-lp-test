@@ -324,19 +324,67 @@ header a {
 }
 
 .top-text {
-  padding: 50px 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.top-text h2 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 4rem;
+  width: 100%;
+}
+
+.top-text-circle {
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  border: solid 3px white;
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 20%;
-  left: 0;
 }
 
-.top-text h2 {
-  color: white;
-  text-align: left;
-  font-size: 4rem;
+#top-text1 {
+  top: 50%;
+  left: calc(50% / 3);
+  transform: translateX(-50%);
+}
+
+#top-text2 {
+  top: 50%;
+  left: calc(100% / 3);
+  transform: translateX(-50%);
+}
+
+#top-text3 {
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#top-text4 {
+  top: 50%;
+  right: calc(100% / 3);
+  transform: translateX(50%);
+}
+
+#top-text5 {
+  top: 50%;
+  right: calc(50% / 3);
+  transform: translateX(50%);
 }
 
 .layer {
