@@ -312,15 +312,21 @@ header a {
 }
 
 .top-image {
-  height: 90vh;
+  height: fit-content;
   width: 100%;
-  background: url("https://rin101.github.io/muscle-lp-test/assets/画像/cm3-performance.jpg");
-  background-position: center;
+  /* background: url("https://rin101.github.io/muscle-lp-test/assets/画像/cm3-performance.jpg"); */
+  background: url("https://rin101.github.io/muscle-lp-test/assets/画像/cropped-cm3-performance.jpg");
+  background-position: top;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   position: relative;
   /* ----------- */
   z-index: 1000;
+}
+
+.hidden-image {
+  width: 100%;
+  opacity: 0;
 }
 
 .top-text {
@@ -459,7 +465,6 @@ header a {
 
 .seinou-topic-content p {
   color: rgba(0, 0, 0, 0.8);
-  text-indent: 1rem;
   position: relative;
 }
 
@@ -535,15 +540,22 @@ header a {
 
 .saikousokudo-plc-draw {
   display: flex;
-  align-items: flex-end;
   justify-content: space-around;
+  align-items: flex-end;
   width: 100%;
   padding: 1rem 0;
 }
 
+.plc-driver-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .plc-driver {
   height: 4rem;
-  width: 15%;
+  width: 3rem;
   border: solid 1.5px var(--greenblue);
   border-radius: 3px;
   display: flex;
@@ -557,16 +569,23 @@ header a {
   width: 90%;
   border-radius: 1px;
   color: white;
-  font-size: 50%;
+  font-size: 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+.plc-mota-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .plc-mota {
   height: 3rem;
-  width: 20%;
+  width: 4.5rem;
   border: solid 1.5px var(--greenblue);
   border-radius: 3px;
   display: flex;
@@ -594,7 +613,7 @@ header a {
   width: 90%;
   border-radius: 1px;
   color: white;
-  font-size: 7px;
+  font-size: 0.6rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -605,13 +624,15 @@ header a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex: 1;
 }
 
 .drv-fuyou .box {
-  height: 3rem;
-  width: 2rem;
+  height: 4rem;
+  width: 3rem;
   border: dotted 2px rgba(0, 0, 0, 0.5);
-  margin: 5px;
+  border-radius: 3px;
+  margin: 0 0 0.5rem 0;
 }
 
 .drv-fuyou p {
@@ -730,25 +751,16 @@ header a {
   width: 55%;
   margin: 3rem;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-}
-
-.shouene-text p {
-  margin-bottom: 1rem;
-}
-
-.shouene-border {
-  width: 40%;
-  height: 0.3rem;
-  background: #618d34;
+  border-left: solid 0.3rem #618d34;
+  padding: 0 0 0 1rem;
 }
 
 .shouene-top-text p,
 .shouene-text p {
   color: rgba(0, 0, 0, 0.8);
   font-size: 0.9rem;
-  text-indent: 0.9rem;
 }
 
 /* ================================ */

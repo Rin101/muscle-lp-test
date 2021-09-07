@@ -29,6 +29,7 @@
         </div>
     </header>
     <div class="top-image">
+        <img class="hidden-image" src="https://rin101.github.io/muscle-lp-test/assets/画像/small-cropped-cm3-performance.jpg" alt="">
         <div class="top-text">
             <h2>ステッピングモータの課題解決</h2>
             <div class="top-text-circle" id="top-text1"><p>低発熱</p></div>
@@ -123,8 +124,12 @@
                     <p>ステッピングモータ</p>
                     <div class="saikousokudo-ill">
                         <div class="saikousokudo-plc-draw">
-                            <div class="plc-driver"><div><p>ド</p><p>ラ</p><p>イ</p><p>バ</p></div></div>
-                            <div class="plc-mota"><div class="mota-text"><p>モータ</p></div><div class="mota"></div></div>
+                            <div class="plc-driver-container">
+                                <div class="plc-driver"><div><p>ド</p><p>ラ</p><p>イ</p><p>バ</p></div></div>
+                            </div>
+                            <div class="plc-mota-container">
+                                <div class="plc-mota"><div class="mota-text"><p>モータ</p></div><div class="mota"></div></div>
+                            </div>
                         </div>
                     </div>
                     <p class="saikousokudo-graph-text">ステッピングモータは低速動作に優れていますが、最高速度は低いです。</p>
@@ -143,7 +148,9 @@
                                 </div>
                                 <p>ドライバ不要</p>
                             </div>
-                            <div class="plc-mota"><div class="mota-text"><p>CM3</p></div><div class="mota"></div></div>
+                            <div class="plc-mota-container">
+                                <div class="plc-mota"><div class="mota-text"><p>CM3</p></div><div class="mota"></div></div>
+                            </div>
                         </div>
                     </div>
                     <p class="saikousokudo-graph-text">CM3の最高速度は5000RPM、サーボモータと同等以上の高速回転が可能です。</p>
@@ -165,8 +172,12 @@
                     <p>ステッピングモータ</p>
                     <div class="saikousokudo-ill">
                         <div class="saikousokudo-plc-draw">
-                            <div class="plc-driver"><div><p>ド</p><p>ラ</p><p>イ</p><p>バ</p></div></div>
-                            <div class="plc-mota"><div class="mota-text"><p>モータ</p></div><div class="mota"></div></div>
+                            <div class="plc-driver-container">
+                                <div class="plc-driver"><div><p>ド</p><p>ラ</p><p>イ</p><p>バ</p></div></div>
+                            </div>
+                            <div class="plc-mota-container">
+                                <div class="plc-mota"><div class="mota-text"><p>モータ</p></div><div class="mota"></div></div>
+                            </div>
                         </div>
                     </div>
                     <p class="saikousokudo-graph-text">ステッピングモータは脱調リスクがあるので安全率をみる必要があります。</p>
@@ -185,7 +196,9 @@
                                 </div>
                                 <p>ドライバ不要</p>
                             </div>
-                            <div class="plc-mota"><div class="mota-text"><p>モータ</p></div><div class="mota"></div></div>
+                            <div class="plc-mota-container">
+                                <div class="plc-mota"><div class="mota-text"><p>CM3</p></div><div class="mota"></div></div>
+                            </div>
                         </div>
                     </div>
                     <p class="saikousokudo-graph-text">CM3であれば使用できるトルク領域が広く、低速域ではサーボモータを超えるトルク域が使用できます。</p>
@@ -249,7 +262,7 @@
                     <p class="teishindou-left-text">振動が抑えられることでモータ回転時の音も静かになります。</p>
                 </div>
                 <div class="teishindou-right">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/lJ52c1NZlLY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/kmui2eQxghQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -271,7 +284,6 @@
                 <img src="https://rin101.github.io/muscle-lp-test/assets/画像/shouene1.png" alt="">
                 <div class="shouene-text">
                     <p>常に一定の電流が流れる一般的なステッピングモータに対して、CM3は無負荷状態でのモータ停止時に位置を保持するためのトルクがほとんど必要ない為、必要最低限の電流のみ流し、発熱も抑えることができます。</p>
-                    <div class="shouene-border"></div>
                 </div>
             </div>
         </div>
@@ -282,7 +294,6 @@
                 <div class="shouene-text">
                     <p>一般的なステッピングモータは連続動作させることでモータ温度が上昇し続け、ドライバの温度保護機能により停止してしまいますが、
                         CM3は状況に応じた最適な電流制御により、発熱を抑えることができ、長時間の連続運転にもご使用いただけます。</p>
-                    <div class="shouene-border"></div>
                 </div>
             </div> 
         </div>
@@ -299,7 +310,7 @@
         <div class="answer-container">
             <div class="answer">
                 <p>販売価格は以下URL記載の弊社特約店よりお問い合わせください。</p>
-                <a href="https://musclecorp.com">販売特約店一覧 | マッスル株式会社 一体型モータ・アクチュエータ</a>
+                <a href="https://musclecorp.com/motion/distributor/">販売特約店一覧 | マッスル株式会社 一体型モータ・アクチュエータ</a>
             </div>
             <div class="customer-service-icon">
                 <i class="fas fa-user-tie"></i>
