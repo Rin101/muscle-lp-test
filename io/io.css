@@ -91,7 +91,8 @@ section {
 }
 
 .section-title {
-  background: gray;
+  /* background: gray; */
+  background: #3bb371;
   color: white;
   padding: 10px 30px;
   display: inline-block;

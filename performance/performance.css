@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@800&display=swap");
 
 :root {
   --gray-background: #e7e6e6;
@@ -312,21 +314,19 @@ header a {
 }
 
 .top-image {
-  height: fit-content;
+  height: 90vh;
   width: 100%;
-  /* background: url("https://rin101.github.io/muscle-lp-test/assets/画像/cm3-performance.jpg"); */
   background: url("https://rin101.github.io/muscle-lp-test/assets/画像/cropped-cm3-performance.jpg");
   background-position: top;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   position: relative;
   /* ----------- */
   z-index: 1000;
 }
 
-.hidden-image {
+.top-image-image {
   width: 100%;
-  opacity: 0;
 }
 
 .top-text {
@@ -348,11 +348,11 @@ header a {
   width: 100%;
 }
 
-.top-text-circle {
+/* .top-text-circle {
   height: 130px;
   width: 130px;
   border-radius: 50%;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
   color: white;
   border: solid 3px white;
@@ -361,9 +361,31 @@ header a {
   justify-content: center;
   align-items: center;
   position: absolute;
+}  */
+
+.top-text-circle-container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-#top-text1 {
+.top-text-circle {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  font-family: "Shippori Mincho", serif;
+}
+
+/* #top-text1 {
   top: 50%;
   left: calc(50% / 3);
   transform: translateX(-50%);
@@ -391,7 +413,7 @@ header a {
   top: 50%;
   right: calc(50% / 3);
   transform: translateX(50%);
-}
+} */
 
 .layer {
   background: rgba(0, 0, 0, 0.5);
